@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/OnlineLibrary">
+<Resource
+    name="jdbc/OnlineLibrary"
+    auth="Container"
+    type="com.mchange.v2.c3p0.ComboPooledDataSource"
+    factory="org.apache.naming.factory.BeanFactory"
+    driverClass="org.postgresql.Driver"
+    jdbcUrl="jdbc:postgresql://localhost:5432/OnlineLibrary"
+    user="andrew"
+    password="380347543770kuzy"
+    minPoolSize="10"
+    maxPoolSize="20"
+    maxIdleTime="600"
+    idleConnectionTestPeriod="180"
+    maxStatementsPerConnection="50"
+/>
+</Context>

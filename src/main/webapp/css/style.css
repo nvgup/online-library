@@ -1,0 +1,245 @@
+/* General */
+
+#wrapper {
+	font: 16px Verdana;
+	color: #343434;
+}
+
+.online-library-buttton {
+	font: 14px Verdana;
+	color: #343434;
+	padding: 0;
+	border: 1px solid #B0E5A3;
+	border-radius: 3px;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin: 0;
+}
+
+.online-library-buttton:hover {
+	color: #205935;
+	cursor: pointer;
+	border: 1px solid #343434;
+}
+
+.online-library-buttton:active {
+	border: 2px solid #343434;
+}
+
+.online-library-input {
+	font: 14px Verdana;
+	color: #343434;
+	text-indent: 5px;
+	width: 220px;
+	height: 22px;
+	padding: 0;
+	margin: 0;
+	border: 1px solid #B0E5A3;
+	background-color: #FFFFFF;
+}
+
+.error-message {
+	font: 12px Verdana;
+	color:#CA1F1C;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.clear {
+	clear: both;
+}
+
+/* HEADER */
+
+#header {
+	height: 40px;
+	width: 1100px;
+	padding-top: 20px;
+	margin: 20px auto 0 auto;
+	background-color: #FFFFFF;
+	border: 1px solid #B0E5A3;
+}
+
+#header ul{
+	 padding: 0;
+	 margin: 0;
+}
+
+#header ul li{
+	 list-style-type: none;
+	 display: inline;
+	 margin: 0 5px 0 5px;
+}
+
+#header a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #343434;
+}
+
+#header a:hover{
+	color: #205935;
+}
+
+/* CONTENT */
+
+#content {
+	width: 1100px;
+	margin: 20px auto 0 auto;
+
+}
+
+#content h3 {
+	text-align: center;
+}
+
+/* BOOKS PAGE CONTENT */
+
+#search-block {
+	width: 1100px;
+	margin: 20px auto 0 auto;
+	text-align: center;
+}
+
+.book {
+	width: 252px;
+	height: 328px;
+	float: left;
+	margin: 0 0 18px 17px;
+	border: 1px solid #B0E5A3;
+}
+
+.book a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #343434;
+}
+
+.book a:hover{
+	color: #205935;
+}
+
+.book-name, .book-buttons-block{
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* LOGIN and REGISTRATION PAGE CONTENT */
+
+#login-form, #registration-form {
+	margin: 0 auto 0 auto;
+	width: 225px;
+}
+
+#login-buttons-block, #registration-buttons-block {
+	text-align: center;
+}
+
+#correct-conf-pass {
+	display: none;
+}
+
+/* BOOK, BOOKEDIT and ADMIN PAGE CONTENT */
+
+#book-left-block {
+	float: left;
+	width: 525px;
+}
+
+#book-right-block {
+	width: 400px;
+	margin-left: 550px;
+}
+
+#new-book {
+	width: 400px;
+	margin-left: 400px;
+}
+
+#book-description {
+	width: 400px;
+}
+
+#book-edit-form {
+	width: 230px;
+	margin-left: 20px;
+}
+
+input[name="bookId"] {
+	border: 1px solid #CCCCCC;
+}
+
+.book-edit-input {
+	margin: 5px 0 0 2px;
+	width: 200px;
+}
+
+#genre-block, #author-block {
+	border: 1px solid #B0E5A3;
+	margin-top: 5px;
+	padding-bottom: 5px;
+}
+
+.delete-genre, .delete-author {
+	width: 15px;
+}
+
+.delete-genre span, .delete-author span{
+	color: #FF0000;
+}
+
+/* PERSONAL PAGE CONTENT */
+
+#personal-info {
+	margin-left: 555px;
+	width: 280px;
+	padding-left: 20px;
+}
+
+#favorite-list {
+	float: left;
+	width: 550px;
+}
+
+.favorite-book {
+	margin-top: 5px;
+	border: 1px solid #B0E5A3;
+	height: 100px;
+}
+
+.favorite-book a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #343434;
+}
+
+.favorite-book a:hover{
+	color: #205935;
+}
+
+.favorite-book-cover {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+.favorite-book-name {
+	width: 300px;
+	text-align: center;
+	padding-top: 20px;
+	height: 80px;
+	float: left;
+	margin-left: 5px;
+}
+
+.favorite-book-button {
+	width: 100px;
+	text-align: center;
+	padding-top: 40px;
+	height: 60px;
+	float: left;
+	margin-left: 5px;
+}
+
